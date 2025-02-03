@@ -67,30 +67,6 @@ export const Navbar = () => {
           <JSONCrackLogo fontSize="1.2rem" />
         </Left>
         <Center>
-          <Button
-            component="a"
-            href="https://marketplace.visualstudio.com/items?itemName=AykutSarac.jsoncrack-vscode"
-            target="_blank"
-            variant="subtle"
-            color="black"
-            size="md"
-            radius="md"
-            rel="noopener"
-          >
-            VS Code
-          </Button>
-          <Button
-            component="a"
-            href="https://github.com/AykutSarac/jsoncrack.com"
-            target="_blank"
-            variant="subtle"
-            color="black"
-            size="md"
-            radius="md"
-            rel="noopener"
-          >
-            Open Source
-          </Button>
           <Menu withArrow shadow="sm">
             <Menu.Target>
               <Button
@@ -142,17 +118,6 @@ export const Navbar = () => {
           </Menu>
         </Center>
         <Right>
-          <Button
-            component="a"
-            href="https://todiagram.com?utm_source=jsoncrack&utm_medium=navbar"
-            variant="subtle"
-            color="black"
-            size="md"
-            radius="md"
-            rel="noopener"
-          >
-            Upgrade
-          </Button>
           <Button
             radius="md"
             component="a"
